@@ -1,0 +1,16 @@
+model:
+  name: potential_model
+  params:
+    learning_rate: 0.001
+model_dir: /home/tigran/Desktop/Milen_diplom/p_network_outputs/PiNet_lumo
+network:
+  name: PiNet
+  params:
+    atom_types:
+    - 1
+    - 6
+    - 7
+    - 8
+    - 9
+    depth: 4
+    rc: 4.0
